@@ -1,0 +1,3 @@
+filter ($user: User, $session: Session) on Queue [
+  where userId == $user.id
+]

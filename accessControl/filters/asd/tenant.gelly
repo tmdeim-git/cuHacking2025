@@ -1,0 +1,3 @@
+filter ($user: User, $session: Session) on Asd [
+  where userId == $user.id
+]
